@@ -203,7 +203,7 @@ export const communityToolingItems = [
     tags: ["development", "operations", "testing"],
     description:
       "Communicate with IC directly using NodeJs. Automatic service discovery.",
-    links: {github:"https://github.com/infu/icblast"},
+    links: { github: "https://github.com/infu/icblast" },
   },
   {
     title: "ic-py",
@@ -225,5 +225,15 @@ export const communityToolingItems = [
     description:
       "DevOps platform to build, ship and manage dapps faster on IC.",
     links: { external: "https://internetcomputerservices.com/" },
+  },
+  {
+    title: "Itertools",
+    tags: ["library"],
+    description:
+      "A library with utility functions and data types for creating efficient iterators in Motoko.",
+    links: {
+      github: "https://github.com/NatLabs/Itertools",
+      docs: "https://natlabs.github.io/Itertools/",
+    },
   },
 ];
